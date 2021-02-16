@@ -98,13 +98,13 @@ header{
 }
 /*Sezione1*/
 .colonna-sezione1{
-    width: 30%;
+    width: 20%;
     text-align: center;
-    margin-left: 3%;
+    margin-left: 10%;
 }
 .img-sezioni{
-    height: 250px;
+    height: 200px;
     object-fit: contain;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 20px;
 }
