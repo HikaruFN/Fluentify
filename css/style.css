@@ -43,6 +43,9 @@ a{
     border-radius: 10%;
     padding: 5px 15px
 }
+p{
+    color: #8b8b8b;
+}
 /*Header*/
 header{
     height: 600px;
@@ -79,4 +82,14 @@ header{
 }
 .slogan .bordo-verde{
     padding: 20px 15px
+}
+/*Intestazione*/
+.intestazione{
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 50px;
+}
+.intestazione h1{
+    margin-bottom: 10px;
+    font-size: 22px;
 }
