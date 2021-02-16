@@ -46,6 +46,9 @@ a{
 p{
     color: #8b8b8b;
 }
+h3{
+    color: #7cbb02;
+}
 /*Header*/
 header{
     height: 600px;
@@ -89,7 +92,19 @@ header{
     text-align: center;
     padding: 50px;
 }
-.intestazione h1{
+.intestazione h2{
     margin-bottom: 10px;
     font-size: 22px;
+}
+/*Sezione1*/
+.colonna-sezione1{
+    width: 30%;
+    text-align: center;
+    margin-left: 3%;
+}
+.img-sezioni{
+    height: 250px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
