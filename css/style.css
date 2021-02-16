@@ -49,6 +49,13 @@ p{
 h3{
     color: #7cbb02;
 }
+.sezione::after{
+    content:"";
+    border: 1px solid #d3d3d3 ;
+    display: block;
+    width: 1800px;
+    margin: 50px 50px;
+}
 /*Header*/
 header{
     height: 600px;
@@ -102,9 +109,43 @@ header{
     text-align: center;
     margin-left: 10%;
 }
-.img-sezioni{
+.colonna-sezione1 h3::after{ /*Spero di non aver fatto un casino*/
+    content:"";
+    border: 1px solid #d3d3d3 ;
+    display: block;
+    width: 50px;
+    margin: 15px 0;
+    margin-left: 140px;
+
+}
+.img-sezione1{
     height: 200px;
     object-fit: contain;
     margin-top: 35px;
     margin-bottom: 20px;
 }
+/*Sezione2*/
+.colonna-sezione2{
+    width: 50%;
+    margin-top: 100px;
+
+}
+.colonna-sezione2 a{
+    color: blue;
+    text-decoration: blue;
+    text-transform: none;
+
+}
+.colonna-sezione2 h2{
+    margin-bottom: 20px;
+}
+.colonna-sezione2 img{
+    height: 300px;
+    object-fit: contain;
+    margin-top: 35px;
+} 
+/*Footer*/
+footer{
+    background-color: #d3d3d3;
+}   
+    
