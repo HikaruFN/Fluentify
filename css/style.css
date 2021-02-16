@@ -25,7 +25,7 @@ body{
 li{
     display: inline-block;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 a{
     color: white;
@@ -49,8 +49,9 @@ header{
     background-color: #0c325a;
     background-image: url(../img/background-header.png);
     background-repeat: no-repeat;
-    background-size: 1000px;
-    background-position: 641px 196px;
+    background-size: 1200px;
+    background-position: 793px 112px;
+    position: relative;
 }
 /*Nav*/
 .logo{
@@ -62,4 +63,20 @@ header{
 }   
 .menu-destra{
     width: 40%;
+}
+/*Slogan*/
+.slogan{
+    color: white;
+    width: 30%;
+    position: absolute;
+    bottom: 196px;
+    left: 107px;
+}
+.slogan h1{
+    font-size: 47px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.slogan .bordo-verde{
+    padding: 20px 15px
 }
